@@ -121,7 +121,7 @@ jobs:
 
   workflows:
     # Workflow lint and audit plus the secret scan: new commits on pull requests,
-    # the full history on main (STD-0004 library tools, verified prebuilt binaries).
+    # the full history on main (the CI library's hosted tools, verified prebuilt binaries).
     runs-on: ubuntu-26.04
     timeout-minutes: 10
     permissions:
