@@ -13,7 +13,7 @@ ROOT = Path(__file__).resolve().parents[1]
 INPUTS = ['.gitattributes', 'assets/nddev-mark.svg', 'assets/brand-source.json', 'tokens/tokens.json',
           'tools/generate_launchers.py', 'tools/requirements-icons.txt', 'tools/with-renderer-zlib.sh']
 RENDERER_VERSION = '12.3.0'
-CANONICAL_RENDERER = {'platform': 'Linux-x86_64', 'python': '3.15.0',
+CANONICAL_RENDERER = {'platform': 'Linux-x86_64', 'python': '3.15.2',
                       'pillow': RENDERER_VERSION, 'zlib': '1.3.2'}
 
 
